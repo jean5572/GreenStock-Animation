@@ -13,9 +13,11 @@ timeline
     y: 40,
   })
   .to(".ball", {
-    x: 1500,
-    y: -1000,
+    duration: 4,
+    x: "100vw",
+    y: "-100vh",
   });
+
 // gsap.to(".ball", {
 //   duration: 2,
 //   x: 400,
